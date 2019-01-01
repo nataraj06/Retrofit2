@@ -13,7 +13,8 @@ import retrofit2.Response;
 public class RestService extends RestApiClient {
 
     private static RestService instance;
-    private static final String API_KEY = "9428beca6d6d9d97d0b236b324ff0bd0";
+    private static final String API_KEY = "PLACE_YOUR_API_KEY";
+    //Visit http://api.themoviedb.org for generating api key
 
     public static RestService getInstance() {
         if (instance == null) {
